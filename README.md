@@ -4,7 +4,7 @@ Python implementation of the Bleutrade API
 The object will return a dictionary containing the JSON to work with in your program.
 For more information see: https://bleutrade.com/help/API
 
-**NOTE:** The module is written for python2 and will surely not run on python3. A version for python3 will come later.
+**NOTE:** The module is written for python version 2.7 and will surely not run on python 3 or versions below 2.7. A version for python3 will come later.
 
 ### Usage
 
