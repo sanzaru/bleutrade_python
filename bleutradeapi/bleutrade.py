@@ -364,7 +364,7 @@ class Bleutrade:
 	# status is a string. Must be a valid order status
 	# t is a string. Must be a valid order type
 	#
-	def get_orders(self, market='ALL', status, t):
+	def get_orders(self, status, t, market='ALL'):
 		q = self.__build_query({
 			'market': market,
 			'status': self.__chk_order_status(status),
