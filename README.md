@@ -35,7 +35,7 @@ Here we fetch data for all markets. As this API method is a public function we d
 
 For private methods we do need to provide authentication data:
 ```python
-  bleutradeapi.bleutrade import *
+  from bleutradeapi.bleutrade import *
   
 	currencies = ['DOGE', 'BTC', 'LTC']
 	json = Bleutrade('YOUR_API_KEY', 'YOUR_API_SECRET').get_balances(currencies)
