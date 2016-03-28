@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'bleutradeapi',
   packages = ['bleutradeapi'], # this must be the same as the name above
-  version = '0.2',
+  version = '0.3',
   description = 'Python client library implementation of the Bleutrade API',
   author = 'Martin Albrecht',
   author_email = 'iwuerstchen@gmail.com',
