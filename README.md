@@ -8,9 +8,11 @@ For more information see: https://bleutrade.com/help/API
 
 ### Installation
 Unix machines:
+
 `sudo pip install bleutradeapi`
 
 Windows:
+
 `pip install bleutradeapi`
 
 
