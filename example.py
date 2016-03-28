@@ -13,7 +13,7 @@ try:
 	apiKey = 'YOUR_API_KEY'  # Replace with your API key
 	apiSecret = 'YOUR_API_SECRET'  # Replace with your API secret
 	currencies = ['DOGE', 'BTC', 'LTC']
-	json = Bleurtrade(apiKey, apiSecret).get_balances(currencies)
+	json = Bleutrade(apiKey, apiSecret).get_balances(currencies)
 	print json
 
 
