@@ -2,11 +2,11 @@
 # Example program how to use the Bleutrade python API
 #
 import sys
-from lib.bleutrade import *
+from bleutradeapi.bleutrade import *
 
 try:
 	# Fetch all markets
-	json = Bleurtrade().get_markets()
+	json = Bleutrade().get_markets()
 	print json
 
 	# Fetch balances

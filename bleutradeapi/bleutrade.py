@@ -41,7 +41,7 @@ class BleutradeException(Exception):
 #
 # Bleutrade API class
 #
-class Bleurtrade:
+class Bleutrade:
 	#
 	# Constructor
 	#
